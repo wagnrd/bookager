@@ -1,0 +1,46 @@
+{
+    "_category": {
+        "book_shelves": "Bücherregale",
+        "book_listings": "Bücherlisten",
+        "settings": "Einstellungen"
+    },
+    "_setting": {
+        "_category": {
+            "general": "Allgemein",
+            "appearance": "Erscheinung"
+        },
+        "language": "Sprache",
+        "_language": {
+            "de": "Deutsch",
+            "en": "Englisch"
+        },
+        "dark_mode": "Dunkler Modus",
+        "_color": {
+            "_theme": {
+                "dark": "Dunkel",
+                "light": "Hell"
+            },
+            "_type": {
+                "primary": "Primär",
+                "secondary": "Sekundär",
+                "accent": "Akzent"
+            }
+        }
+    },
+    "_book": {
+        "author": "Autor",
+        "title": "Titel",
+        "yeah": "Jahr",
+        "image": "Bild",
+        "genre": "Genre",
+        "rating": "Bewertung",
+        "description": "Beschreibung",
+        "comment": "Kommentar",
+        "_status": {
+            "read": "Gelesen",
+            "unread": "Ungelesen",
+            "reading": "Am Lesen",
+            "canceled": "Abgebrochen"
+        }
+    }
+}
