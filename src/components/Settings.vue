@@ -1,19 +1,17 @@
 <template>
-  <v-container
-      v-if="lang"
-  >
+  <v-container v-if="lang">
     <v-row
         align="start"
         justify="center"
     >
       <v-col
           cols="12"
-          sm="8"
-          md="4"
+          sm="9"
+          md="7"
+          lg="5"
+          xl="4"
       >
-        <v-card
-            elevation="5"
-        >
+        <v-card elevation="5">
           <v-toolbar
               color="primary"
               flat
@@ -64,8 +62,8 @@
 
               <!-- Dark mode -->
               <v-col
-                  class="mt-n4"
                   cols="12"
+                  class="mt-n4"
               >
                 <v-switch
                     v-model="darkModeSetting"
@@ -120,8 +118,7 @@
     export default {
         name: "Settings",
         props: {
-            lang: Object,
-            darkMode: Boolean,
+            lang: Object
         },
         data() {
             return {

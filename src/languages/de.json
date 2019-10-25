@@ -1,8 +1,12 @@
 {
     "_category": {
-        "book_shelves": "Bücherregale",
+        "dashboard": "Übersicht",
         "book_listings": "Bücherlisten",
-        "settings": "Einstellungen"
+        "book_shelves": "Bücherregale",
+        "settings": "Einstellungen",
+        "login": "Anmeldung",
+        "registration": "Registrierung",
+        "account": "Konto"
     },
     "_setting": {
         "_category": {
@@ -26,6 +30,11 @@
                 "accent": "Akzent"
             }
         }
+    },
+    "_login":{
+        "username": "Benutzername",
+        "password": "Passwort",
+        "login": "Anmelden"
     },
     "_book": {
         "author": "Autor",
