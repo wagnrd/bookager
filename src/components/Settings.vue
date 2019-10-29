@@ -1,7 +1,7 @@
 <template>
   <v-container v-if="lang">
     <v-row
-        align="start"
+        align="center"
         justify="center"
     >
       <v-col

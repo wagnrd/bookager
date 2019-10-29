@@ -31,6 +31,13 @@
                   cols="12"
                   class="mb-n8"
               >
+                <v-alert
+                    :value="!loginSuccess"
+                    type="error"
+                    transition="fade-transition"
+                >
+                  {{ lang._login.login_failure }}
+                </v-alert>
                 <v-text-field
                     v-model="username"
                     :placeholder="lang._login.username"
@@ -53,7 +60,7 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn
-                @click="$root.login(username, password)"
+                @click="loginSuccess = $root.login(username, password)"
                 color="primary"
                 text
             >
@@ -76,7 +83,8 @@
         data() {
             return {
                 username: '',
-                password: ''
+                password: '',
+                loginSuccess: true
             }
         }
     }

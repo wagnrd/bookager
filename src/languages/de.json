@@ -2,7 +2,7 @@
     "_category": {
         "dashboard": "Übersicht",
         "book_listings": "Bücherlisten",
-        "book_shelves": "Bücherregale",
+        "bookshelves": "Bücherregale",
         "settings": "Einstellungen",
         "login": "Anmeldung",
         "registration": "Registrierung",
@@ -31,25 +31,36 @@
             }
         }
     },
-    "_login":{
+    "_login": {
         "username": "Benutzername",
         "password": "Passwort",
-        "login": "Anmelden"
+        "login": "Anmelden",
+        "login_failure": "Benutzername oder Passwort falsch."
+    },
+    "_bookshelves": {
+        "all_books": "Alle Bücher"
     },
     "_book": {
         "author": "Autor",
         "title": "Titel",
-        "yeah": "Jahr",
+        "year_read": "Jahr gelesen",
         "image": "Bild",
         "genre": "Genre",
         "rating": "Bewertung",
         "description": "Beschreibung",
         "comment": "Kommentar",
+        "status": "Status",
         "_status": {
             "read": "Gelesen",
             "unread": "Ungelesen",
             "reading": "Am Lesen",
             "canceled": "Abgebrochen"
         }
+    },
+    "_action": {
+        "close": "Schließen",
+        "save": "Speichern",
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
     }
 }
